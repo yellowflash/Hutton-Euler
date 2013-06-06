@@ -1,0 +1,1 @@
+fib = 1:1:(map (\x -> (fst x) + (snd x)) (zip fib (drop 1 fib)))
